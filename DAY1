@@ -64,7 +64,35 @@ using namespace std;
        cout <<a<< "/n" <<b<< endl;
         return 0;
    }
+
+
+// Online C++ compiler to run C++ program online
+//program 5
+
+#include <iostream>  
+using namespace std;
+   
+   int main() {
+       int userId = 1234;
+       int userpassword = 0000;
+         
+         int inputId;
+         int inputpassword;
+          
+          cin >> inputId >> inputpassword;
+            
+       bool isGranted = (userId == inputId) && (userpassword ==inputpassword);
+        cout << "Access Granted" << isGranted << endl;
+        cout << "Access Granted" << isGranted << endl;
+        
+        return 0;
+   }
        
+       
+  
+
+
+
        
   
 
