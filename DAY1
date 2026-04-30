@@ -47,7 +47,29 @@ using namespace std;
         return 0;
    }
        
+  // Online C++ compiler to run C++ program online
+//program 3
+
+#include <iostream>  
+using namespace std;
+   
+   int main() {
+       int a,b;
+       cin >> a >> b;
+       // logic to swap variables value
+       int temp =a;
+       a = b;
+       b = temp;
+       //printing the values
+       cout <<a<< "/n" <<b<< endl;
+        return 0;
+   }
+       
+       
   
+
+
+
 
 
 
