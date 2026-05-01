@@ -14,6 +14,7 @@ int main() {
 }
 
 
+
 // PROGRAM 2
 #include <iostream>
  using namespace std;
@@ -30,6 +31,9 @@ int main() {
 }
     return 0;
 }
+
+
+
 
 
 
@@ -56,6 +60,107 @@ int main() {
         }
     }
 }
+
+
+
+
+///program 4
+//using ternary operator 
+
+ #include <iostream>
+ using namespace std;
+ 
+ int main() {
+     int a,b;
+     int max_number;
+     cout << "enter 1st number: " ;
+     cin >> a;
+     cout << "enter 2nd number: " ;
+     cin >> b;
+     
+     //logic for ternary operator
+     max_number = (a > b ) ? a : b;
+     cout << max_number ;
+     return 0;
+ }
+ 
+ ///program 5
+//using ternary operator 
+
+ #include <iostream>
+ using namespace std;
+ 
+ int main() { 
+     int dayNumber;
+      
+      switch(dayNumber){
+    case 1:
+    cout << "monday";
+    break;
+    case 2:
+    cout << "tuesday";
+    break;
+    case 3:
+    cout << "wednesday";
+    case 4:
+    cout << "thrusday";
+    case 5:
+    cout <<"friday";
+    case 6:
+    cout << "saturday";
+    case 7:
+    cout << "sunday";
+     break;
+     default:
+     cout << "enter a vaild number..";
+}
+ }
+ 
+ 
+
+
+
+// PROGRAM 6
+// CUSTOMER SUPPORT IVR SYSTEM
+// 1 -- for support
+//2 -- for billing 
+// 3 -- technical issue 
+//4-- talk to agent
+
+#include <iostream>
+ using namespace std;
+ 
+
+int main() {
+    int choice;
+    cin >>choice;
+    switch (choice){
+        case 1:
+        cout <<"tranfering call to the support team... ";
+        break;
+        
+        
+        case 2 :
+        cout << "tranfering call to the billing and account department... ";
+        break;
+        
+        case 3 :
+        cout << "connecting to the technical team...";
+        break ;
+        
+        case 4:
+        cout <<" please wait while we are connecting your call to an agent...";
+        break;
+        default : 
+        cout<<"enter a vaild choice...";
+    }
+}
+
+
+
+ 
+
+
 
 
  
