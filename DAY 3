@@ -28,3 +28,21 @@ int main() {
 }
 
 
+
+
+
+//PROGRAM 3
+// print 1 tp 10 using for while loop
+
+#include <iostream> 
+using namespace std;
+
+int main() { 
+    int i = 1;
+    while(i <= 10){
+     cout << i << " ";
+     i++;
+   } 
+}
+
+
