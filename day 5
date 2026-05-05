@@ -20,3 +20,99 @@ using namespace std;
              cout <<"\n";
          }
 }
+
+
+
+
+//PROBLEM 3 
+//function with some values and return values
+
+
+#include <iostream>
+using namespace std;
+ 
+ int calculateArea(int length, int width){
+     return length * width;
+ }
+
+int main() {
+    int a =10;
+    int b =5;
+    int area = calculateArea(a,b);
+    cout << area;
+}
+
+
+
+//PROBLEM 4 --argument and no return value
+
+
+
+#include <iostream>
+using namespace std;
+
+void sendMessage(string message) {
+    cout << message;
+}
+ 
+ int main() {
+     sendMessage("BJP wons...");
+ }
+
+//PROBLEM 4.3--no argument no return value
+
+
+
+
+
+#include <iostream>
+using namespace std;
+   
+    int  ticketNumber() {
+       return 101;
+} 
+
+ int main() {
+  cout << ticketNumber();
+   
+ }
+
+//problem 4.3 
+//argumwnt ,return value 
+  #include <iostream>
+  using namespace std;
+   
+   float currenceyConvertor (float ruppees) {
+       return ruppees / 95.25;
+       
+   }
+  
+  int main() {
+   cout << currenceyConvertor(100);
+
+}
+
+
+
+//problem 9
+//function overloading
+
+  #include <iostream>
+  using namespace std; 
+   
+ int add(int a, int b){ 
+     return a + b;
+} 
+  int add(int a , int b, int c){
+      return a+b+c;
+  }       
+   float add(float a, float b, float c, float d){
+       return a + b + c + d;
+ } 
+ 
+   int main() {
+       cout << add(5,2) <<" \n";
+       cout << add(5.5,7.9) <<"\n";
+       cout << add(5,2,3) << "\n";
+       cout << add(5.0,2.3,5.5,7.9) <<"\n";
+   }
