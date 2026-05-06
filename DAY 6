@@ -73,7 +73,22 @@ using namespace std;
 
 
 
-
+//PROBLEM 5
+// SWAPPING OF 2 VARIABLE'S value using pointers 
+  
+  void swapNumber(int *ptr1 , int *ptr2) {
+      int temp = *ptr1;
+      *ptr1 = *ptr2;
+      *ptr2 = temp;
+  }
+     int main() {
+       int a ,b;
+       cin >>a;
+       cin >> b;
+       swapNumber(&a, &b);
+       cout << a << " " <<b;
+   }
+  
 
 
 
