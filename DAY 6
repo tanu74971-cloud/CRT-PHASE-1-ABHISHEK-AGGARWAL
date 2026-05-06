@@ -1,0 +1,121 @@
+//problem 1
+// coffee billing system
+
+#include <iostream>
+using namespace std; 
+  
+  int billing(int a) {
+      return a*30;
+  }
+   int main() {
+       billing(50c);
+   }
+
+
+
+//proglem --2
+ //store discount application //program
+ //find 10%--amount *0.10
+ // discounted amount--amount -10% vala amount--amount
+      
+      #include <iostream>
+      using namespace std;
+  
+     int discountedAmount(int a){
+         return a - (a * 0.10); 
+         
+         
+     }
+     
+   int main() {
+    cout << discountedAmount(5000);
+}
+
+
+//problem --3
+//smart Ac remote 
+//1.turn on--22
+//2. input--20.5--Temprature set--20.5--Temprature
+//3 . input --ECO--Temprature set 24
+//4 input ---turbp--temprature set --18
+
+ void setTemprature() {
+     cout <<"Temprature Set to 22° C"<<"\n";
+ } 
+  void setTemprature(double temp){
+      cout <<"Temprature set to "<< temp <<" °C" <<"\n";
+      
+  } 
+  voit setTemprature(string mode){
+      if(mode =="ECO"){
+          cout <<"Temprature set to 24 °C" <<"\n";
+      }
+  }
+ }
+ int main() {
+     setTemptature();
+     setTemprature(20.5);
+     setTemprature("ECO");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//pronlem 6
+//class/object
+ 
+ #include <iostream>
+ using namespace std;
+    
+    class Student{ 
+        
+      public:     
+          string name;
+          int age;
+          
+ 
+ void introduce(){
+     cout <<"hii there, this person name is " <<name << " and his age is " <<age <<"\n";
+   }
+};
+int main() {
+    Student s1, s2;
+    s1.name ="Abhishek";
+    s1. age = 24;
+    s2.name ="Rahul";
+    s2.age = 23;
+    s1.introduce();
+      s2.introduce();
+     
+}
+
+
