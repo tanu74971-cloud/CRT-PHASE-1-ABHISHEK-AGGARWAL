@@ -134,3 +134,30 @@ int main() {
 }
 
 
+
+
+
+
+
+
+
+
+
+//pronlem 7.1-----public specifier
+//class/object
+ 
+ #include <iostream>
+ using namespace std;
+    
+    class publicPark{
+    public:
+          void enter() {
+              cout <<"Anyone can enter the park...";
+          }
+ };
+   
+   int main() {
+       publicPark p;
+       p.enter();
+   }    
+
